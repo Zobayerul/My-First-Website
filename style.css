@@ -1,0 +1,211 @@
+/* default css */
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.fixed-width{
+    width: 1270px;
+margin: auto
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+/* Header css */
+.header{
+    background-color:#9b59b6;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img {
+    width: 188px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.header-right ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 65px;
+    font-size: 23px;
+    line-height: 84px;
+    border-right: 1px solid #ddd;
+    transition: .3s;
+}
+.header-right ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header-right ul li a:hover{
+    background-color:#95a5a6;
+}
+
+
+
+/* banner css */
+.banner {
+    background: url(./image/banner-cc-1030x515.jpg) no-repeat center;
+      
+    background-size: cover;
+    padding: 124px 0;
+    background-attachment: fixed;
+}
+
+.banner-caption h1 {
+    background-color: rgba(0,0,0,.4);
+    display: inline-block;
+    padding: 2px 26px;
+    color: orangered;
+    border-radius: 39px;
+
+}
+.banner-caption h2 {
+        background-color: rgba(155, 89, 182,.5);
+        padding: 12px 34px;
+        color:yellow;                                                       
+        border-radius: 16px;
+        max-width: 449px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: 9px;
+    }
+/* About */
+.about {
+    margin-top: 51px;
+}
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.about p {
+    max-width: 736px;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+/* Servic */
+.servis {
+    margin-top: 60px;
+}
+.servis-iteam {
+    float: left;
+    width: 31.3%;
+    Border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.servis-iteam span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: #9b59b6;
+    color: white;
+    margin: auto;
+    line-height: 70px;
+    font-size: 36px;
+    border-radius: 20px 0 20px 0;
+}
+.servis-iteam h3 {
+    margin: 20px 0;
+    font-size: 31px;
+}
+/* Blog */
+.blog-iteam {
+	margin-bottom: 82px;
+}
+.blog-con{
+    margin:60px 0;
+}
+.blog-left{
+    float:left;
+    width: 70%;
+}
+.blog-right{
+    float: right;
+    width: 25%;
+}
+.blog-left img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 20px;
+}
+/* notice */
+.blog-right{}
+.blog-right h2 {
+    font-size: 56px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 23px;
+}
+.blog-right ul {
+    list-style: none;
+}
+.blog-right ul li {
+    border: 1px solid #ddd;
+    padding: 16px 20px;
+    background-color: #fafafa;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+/* footer */
+.footer{
+    background-color:#34495e;
+    padding:10px 0;
+    color:white;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+
+}
+.social{
+ text-align: right;
+
+}
+
+.social li{
+    display: inline-block;
+}
+.social li i{
+    color:white;
+    margin-left: 10px;
+    font-size: 26px;
+    transition: .4s;
+}
+.social li i:hover{
+    background-color:#9b59b6;
+}
